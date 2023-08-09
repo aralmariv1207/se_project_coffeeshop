@@ -69,6 +69,16 @@
   line-height: 30px;
 }
 
+.header__image {
+  z-index: -1;
+  position: absolute;
+  top: 646px;
+  bottom: 568px;
+  right: 5px;
+  max-width: 636px;
+  padding: 124px 0 0;
+}
+
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
