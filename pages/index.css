@@ -8,6 +8,7 @@
 }
 
 .header {
+  z-index: 1;
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -114,11 +115,6 @@
 
 .recipes {
   padding: 100px 80px 215px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-style: 44px;
-  line-height: 52px;
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-color: #0a2750;
@@ -138,6 +134,17 @@
   font-weight: 500;
   font-style: 20px;
   line-height: 30px;
+}
+
+.recipes__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-style: 44px;
+  line-height: 52px;
+  max-width: 580px;
+  top: 100px;
+  left: 80px;
 }
 
 .recipes__subtitle {
