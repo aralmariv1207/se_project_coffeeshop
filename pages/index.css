@@ -14,7 +14,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(./images/background_header.svg);
+  background-image: url(../images/background_header.svg);
   background-size: cover;
 }
 
@@ -108,7 +108,7 @@
   font-weight: 500;
   font-style: 44px;
   line-height: 52px;
-  background-image: url(./images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   background-size: cover;
 }
 
