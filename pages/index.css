@@ -73,9 +73,10 @@
 .header__image {
   z-index: -1;
   position: absolute;
-  top: 646px;
-  bottom: 568px;
+  top: 124px;
   right: 5px;
+  width: 646px;
+  height: 568px;
   max-width: 636px;
   padding: 124px 0 0;
 }
