@@ -398,14 +398,22 @@
   z-index: -1;
 }
 
+.about__circle_animation_blurred {
+}
+
 .footer {
   background: linear-gradient(100deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-right: 100px;
 }
 
 .footer__logo {
+  width: 105px;
+  height: 39px;
 }
 
 .footer__social-heading {
@@ -438,11 +446,12 @@
 }
 
 .footer__copyright {
-  margin-top: 100px;
+  margin-top: 108px;
   margin-bottom: 60px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 }
