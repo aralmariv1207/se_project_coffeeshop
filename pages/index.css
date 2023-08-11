@@ -350,10 +350,15 @@
 
 .about {
   background-color: #0a2850;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .about__title {
-  margin-right: 100px;
+  margin-top: 100px;
   margin-left: 80px;
   max-width: 251px;
   color: #ffffff;
@@ -366,7 +371,10 @@
 
 .about__content {
   max-width: 660px;
-  margin: 119px 173px 80px 0;
+  margin-top: 119px;
+  margin-bottom: 173px;
+  margin-right: 80px;
+  padding: 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -382,6 +390,12 @@
 .about__circle {
   width: 426px;
   height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
 }
 
 .footer {
