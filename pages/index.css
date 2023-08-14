@@ -405,12 +405,13 @@
 
 .footer {
   background: linear-gradient(100deg, #0a2850 0%, #071931 100%);
-}
-
-.footer__content {
   margin-top: 60px;
   margin-left: 80px;
   margin-right: 100px;
+}
+
+.footer__columns {
+  display: flex;
 }
 
 .footer__logo {
@@ -421,6 +422,7 @@
 
 .footer__social-heading {
   margin-bottom: 20px;
+  margin-left: auto;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -432,12 +434,13 @@
 .footer__list {
   list-style-type: none;
   padding: 0;
-  margin-right: 20px;
+  margin-left: auto;
   margin-bottom: 16px;
 }
 
 .footer__list-item {
   margin-bottom: 16px;
+  margin-left: auto;
   padding: 100px;
   color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
@@ -456,6 +459,7 @@
   color: #ffffff;
   margin: 0;
   margin-right: 80px;
+  margin-left: auto;
   height: 16px;
   width: 16px;
 }
