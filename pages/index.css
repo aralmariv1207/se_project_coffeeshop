@@ -416,9 +416,11 @@
 .footer__logo {
   width: 105px;
   height: 39px;
+  margin-left: 80px;
 }
 
 .footer__social-heading {
+  margin-bottom: 20px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -430,12 +432,13 @@
 .footer__list {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-right: 20px;
+  margin-bottom: 16px;
 }
 
 .footer__list-item {
   margin-bottom: 16px;
-  margin-right: 80px;
+  padding: 100px;
   color: #ffffff;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -453,12 +456,15 @@
   color: #ffffff;
   margin: 0;
   margin-right: 80px;
+  height: 16px;
+  width: 16px;
 }
 
 .footer__social-link {
   color: #ffffff;
-  margin: 0;
-  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  padding: 10px;
 }
 
 .footer__social-link:hover {
@@ -466,14 +472,14 @@
 }
 
 .footer__copyright {
-  padding-top: 108px;
-  padding-bottom: 60px;
+  margin-top: 108px;
+  margin-bottom: 60px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
-  margin: 0;
+  padding: 0;
   margin-left: 80px;
 }
