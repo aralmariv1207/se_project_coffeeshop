@@ -412,6 +412,7 @@
 
 .footer__content {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer__logo {
@@ -447,10 +448,14 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  gap: 10px;
 }
 
 .footer__social-link {
   color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social-link:hover {
