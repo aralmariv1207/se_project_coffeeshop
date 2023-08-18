@@ -416,8 +416,8 @@
 }
 
 .footer__logo {
-  height: 105px;
-  width: 39px;
+  height: 39px;
+  width: 105px;
 }
 
 .footer__social-heading {
@@ -427,16 +427,17 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  margin-left: auto;
+  margin: 0;
 }
 
 .footer__list {
   list-style-type: none;
-  margin-left: 100px;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
-  padding: 20px 0 16px;
+  padding: 20px 0 0 0;
   gap: 10px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -469,4 +470,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
 }
