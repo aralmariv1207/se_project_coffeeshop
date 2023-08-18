@@ -61,4 +61,5 @@
 }
 
 .about__circle_animation_blurred {
+  animation: rotation 1.3s easy-in-out infinite;
 }
