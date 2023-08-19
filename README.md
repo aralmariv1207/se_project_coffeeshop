@@ -18,3 +18,5 @@ Improving this project will entail adding the following three pages:
 - "Book a Table"
 - "Menu"
 - "Contacts"
+
+Also, improving this project will entail successfully completing the animation part of the "About the coffee shop" section.
