@@ -26,6 +26,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  margin: 0;
 }
 
 .recipes__title {
@@ -34,10 +35,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  max-width: 580px;
-  top: 100px;
-  left: 80px;
   color: #ffffff;
+  max-width: 580px;
+  margin: 100px 0 24px 80px;
 }
 
 .recipes__subtitle {
@@ -48,6 +48,5 @@
   line-height: 30px;
   color: #ffffff;
   max-width: 438px;
-  top: 24px;
-  left: 80px;
+  margin: 100px 0 24px 80px;
 }

@@ -21,11 +21,6 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__checkbox {
@@ -45,6 +40,8 @@
   width: 100%;
   margin-top: 8px;
   border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -58,7 +55,7 @@
   opacity: 70%;
 }
 
-.form__button[type="submit"] {
+.form__button {
   width: 100%;
   padding: 0;
   border: none;
@@ -72,12 +69,13 @@
   min-width: 117px;
   min-height: 60px;
   background: #2f71e5;
-  border-radius: 100px;
+  border-radius: 4px;
   color: #ffffff;
   font-size: 18px;
   border: none;
 }
 
-.form__button[type="submit"]:hover {
+.form__button:hover {
   opacity: 70%;
+  transition: smooth;
 }
